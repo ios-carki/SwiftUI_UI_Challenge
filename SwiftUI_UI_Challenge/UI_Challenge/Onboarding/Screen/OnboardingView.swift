@@ -16,7 +16,7 @@ struct OnboardingView: View {
             TabView {
                 ForEach(0..<onboardingData.count) { item in
                     CardView(image: data[item].image, text: data[item].text)
-                        .frame(height: UIScreen.main.bounds.height * 0.8)
+                        .frame(height: UIScreen.main.bounds.height * 0.7)
                         .padding(.horizontal, 16)
                 }
             }
