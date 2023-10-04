@@ -11,6 +11,10 @@
 		0B92426E2ACD546300C123FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92426D2ACD546300C123FF /* ContentView.swift */; };
 		0B9242702ACD546400C123FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B92426F2ACD546400C123FF /* Assets.xcassets */; };
 		0B9242732ACD546400C123FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9242722ACD546400C123FF /* Preview Assets.xcassets */; };
+		0B92427E2ACD570E00C123FF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92427D2ACD570E00C123FF /* OnboardingView.swift */; };
+		0B9242822ACD574B00C123FF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242812ACD574B00C123FF /* CardView.swift */; };
+		0B9242852ACD5B1800C123FF /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242842ACD5B1800C123FF /* OnboardingModel.swift */; };
+		0B9242882ACD5B2E00C123FF /* OnboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9242872ACD5B2E00C123FF /* OnboardingData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0B92426D2ACD546300C123FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B92426F2ACD546400C123FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B9242722ACD546400C123FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B92427D2ACD570E00C123FF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0B9242812ACD574B00C123FF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0B9242842ACD5B1800C123FF /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		0B9242872ACD5B2E00C123FF /* OnboardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,11 @@
 		0B92426A2ACD546300C123FF /* SwiftUI_UI_Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				0B92426B2ACD546300C123FF /* SwiftUI_UI_ChallengeApp.swift */,
+				0B92427F2ACD572300C123FF /* Helper */,
+				0B92427C2ACD564700C123FF /* Resources */,
+				0B92427B2ACD560500C123FF /* UI_Challenge */,
+				0B92427A2ACD55F900C123FF /* Application */,
 				0B92426D2ACD546300C123FF /* ContentView.swift */,
-				0B92426F2ACD546400C123FF /* Assets.xcassets */,
-				0B9242712ACD546400C123FF /* Preview Content */,
 			);
 			path = SwiftUI_UI_Challenge;
 			sourceTree = "<group>";
@@ -65,6 +74,81 @@
 				0B9242722ACD546400C123FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B9242792ACD55EF00C123FF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242892ACD5BAD00C123FF /* Screen */,
+				0B9242862ACD5B2200C123FF /* Data */,
+				0B9242832ACD5B0800C123FF /* Model */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0B92427A2ACD55F900C123FF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0B92426B2ACD546300C123FF /* SwiftUI_UI_ChallengeApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0B92427B2ACD560500C123FF /* UI_Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242792ACD55EF00C123FF /* Onboarding */,
+			);
+			path = UI_Challenge;
+			sourceTree = "<group>";
+		};
+		0B92427C2ACD564700C123FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B92426F2ACD546400C123FF /* Assets.xcassets */,
+				0B9242712ACD546400C123FF /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B92427F2ACD572300C123FF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242802ACD572A00C123FF /* Views */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0B9242802ACD572A00C123FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242812ACD574B00C123FF /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B9242832ACD5B0800C123FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242842ACD5B1800C123FF /* OnboardingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B9242862ACD5B2200C123FF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0B9242872ACD5B2E00C123FF /* OnboardingData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0B9242892ACD5BAD00C123FF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0B92427D2ACD570E00C123FF /* OnboardingView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9242882ACD5B2E00C123FF /* OnboardingData.swift in Sources */,
+				0B92427E2ACD570E00C123FF /* OnboardingView.swift in Sources */,
+				0B9242852ACD5B1800C123FF /* OnboardingModel.swift in Sources */,
 				0B92426E2ACD546300C123FF /* ContentView.swift in Sources */,
+				0B9242822ACD574B00C123FF /* CardView.swift in Sources */,
 				0B92426C2ACD546300C123FF /* SwiftUI_UI_ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +354,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_UI_Challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_UI_Challenge/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 98MMAJZLCF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +383,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_UI_Challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_UI_Challenge/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 98MMAJZLCF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
