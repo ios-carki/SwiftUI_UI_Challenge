@@ -18,6 +18,14 @@ struct ContentView: View {
                             .font(.footnote)
                     }
                 }
+                
+                NavigationLink(destination: SettingView()) {
+                    HStack {
+                        Text("Setting")
+                            .foregroundColor(.black)
+                            .font(.footnote)
+                    }
+                }
             }
             .listStyle(.insetGrouped)
         }
