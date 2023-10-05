@@ -2,7 +2,7 @@
 //  CardView.swift
 //  SwiftUI_UI_Challenge
 //
-//  Created by HESSEGG on 2023/10/04.
+//  Created by Owen on 2023/10/04.
 //
 
 import SwiftUI
