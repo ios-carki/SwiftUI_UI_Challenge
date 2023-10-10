@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B3B698F2AD4D907009178C7 /* SlideStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B698E2AD4D907009178C7 /* SlideStartView.swift */; };
 		0B92426C2ACD546300C123FF /* SwiftUI_UI_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92426B2ACD546300C123FF /* SwiftUI_UI_ChallengeApp.swift */; };
 		0B92426E2ACD546300C123FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92426D2ACD546300C123FF /* ContentView.swift */; };
 		0B9242702ACD546400C123FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B92426F2ACD546400C123FF /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B3B698E2AD4D907009178C7 /* SlideStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideStartView.swift; sourceTree = "<group>"; };
 		0B9242682ACD546300C123FF /* SwiftUI_UI_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_UI_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B92426B2ACD546300C123FF /* SwiftUI_UI_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UI_ChallengeApp.swift; sourceTree = "<group>"; };
 		0B92426D2ACD546300C123FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3B698D2AD4D8F4009178C7 /* SlideToStart */ = {
+			isa = PBXGroup;
+			children = (
+				0B3B698E2AD4D907009178C7 /* SlideStartView.swift */,
+			);
+			path = SlideToStart;
+			sourceTree = "<group>";
+		};
 		0B92425F2ACD546300C123FF = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		0B92427B2ACD560500C123FF /* UI_Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				0B3B698D2AD4D8F4009178C7 /* SlideToStart */,
 				0B9242902ACE3F7C00C123FF /* Setting */,
 				0B9242792ACD55EF00C123FF /* Onboarding */,
 			);
@@ -239,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B9242882ACD5B2E00C123FF /* OnboardingData.swift in Sources */,
+				0B3B698F2AD4D907009178C7 /* SlideStartView.swift in Sources */,
 				0B92427E2ACD570E00C123FF /* OnboardingView.swift in Sources */,
 				0B9242942ACE3FDE00C123FF /* SettingLabelView.swift in Sources */,
 				0B9242852ACD5B1800C123FF /* OnboardingModel.swift in Sources */,

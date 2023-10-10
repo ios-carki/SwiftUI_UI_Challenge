@@ -26,6 +26,14 @@ struct ContentView: View {
                             .font(.footnote)
                     }
                 }
+                
+                NavigationLink(destination: SlideStartView()) {
+                    HStack {
+                        Text("Slide Start")
+                            .foregroundColor(.black)
+                            .font(.footnote)
+                    }
+                }
             }
             .listStyle(.insetGrouped)
         }
